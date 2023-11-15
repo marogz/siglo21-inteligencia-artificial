@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-INPUT_PATH = 'input_lines.jpg'
-ACCUMULATOR_THRESHOLD = 200
+INPUT_PATH = 'engine.jpg'
+ACCUMULATOR_THRESHOLD = 120 # Use 200 for example_lines.jpg image
 
 
 def hough_transform_lines(image):

@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-INPUT_PATH = 'input_circles.jpg'
-ACCUMULATOR_THRESHOLD = 60
+INPUT_PATH = 'engine.jpg'
+ACCUMULATOR_THRESHOLD = 100 # Use 60 for example_circles.jpg image
 
 
 def hough_transform_circles(image):
